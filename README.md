@@ -3,10 +3,17 @@ Projecten met betrekking tot het gebruik van het **Home Assistant OS** (HAOS), o
 O.a. voor het uitlezen van gegevens van een warmtepomp en daarna als doel het besturen ervan, met
 als input allerlei omgevings sensoren en weersvoorspelling.
 
-#Jinja2
+# Jinja2
 In HAOS kunnen sjalonen (templates) worden gemaakt, m.b.v. een [scripttaal Jinja2](https://jinja.palletsprojects.com/en/latest/templates/),
-dit moet verder worden uitgezocht hoe dit in zijn werk gaat. 
+dit moet verder worden uitgezocht hoe dit in zijn werk gaat. Het is een tool die andere scripttalen "maaktt", dus waarschijnlijk converteerd
+het op de achtergrond een script naar een eigen HAOS gebruikt script.
 
-#Python
+# Python
 HAOS maakt het mogelijk om Python programma's te starten, dit moet ook nog verder worden uitgezocht hoe dit exact in 
 zijn werk gaat.
+
+# ESPHome
+Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. ESP32 microcontrollers mogelijk maakt, deze 
+gebruik ik regelmatig i.c.m. MicroPython/MySQL om verschillende sensoren aan te sturen, zoals voor temperatuur, luchtvochtigheid
+en luchtdruk, bewegingssensoren (PIR) etc. Deze module heet [ESPHome](https://www.esphome.io/) en kan een waardevolle toevoeging
+zijn in de toekomst.
