@@ -12,6 +12,9 @@ het op de achtergrond een script naar een eigen HAOS gebruikt script.
 HAOS maakt het mogelijk om Python programma's te starten, dit moet ook nog verder worden uitgezocht hoe dit exact in 
 zijn werk gaat. Er is een begin van een voorbeeld op de website van Home Assistant zelf: [Python op Home Assistant](https://www.home-assistant.io/integrations/python_script/)
 
+Even zelf overgestapt op **"pyscript**, deze lijkt nu correct te zijn geïnstalleerd.
+Nu nog een script werkend zien te krijgen. Lastig omdat de bijgeleverde "documentatie" erg summier is.
+
 # ESPHome
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. ESP32 microcontrollers mogelijk maakt, deze 
 gebruik ik regelmatig i.c.m. MicroPython/MySQL om verschillende sensoren aan te sturen, zoals voor temperatuur, luchtvochtigheid
