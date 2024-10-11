@@ -10,7 +10,7 @@ het op de achtergrond een script naar een eigen HAOS gebruikt script.
 
 # Python
 HAOS maakt het mogelijk om Python programma's te starten, dit moet ook nog verder worden uitgezocht hoe dit exact in 
-zijn werk gaat.
+zijn werk gaat. Er is een begin van een voorbeeld op de website van Home Assistant zelf: [Python op Home Assistant](https://www.home-assistant.io/integrations/python_script/)
 
 # ESPHome
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. ESP32 microcontrollers mogelijk maakt, deze 
