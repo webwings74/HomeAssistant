@@ -21,5 +21,9 @@ gebruik ik regelmatig i.c.m. MicroPython/MySQL om verschillende sensoren aan te 
 en luchtdruk, bewegingssensoren (PIR) etc. Deze module heet [ESPHome](https://www.esphome.io/) en kan een waardevolle toevoeging
 zijn in de toekomst.
 
+# AppleTV
+Home Assistant zou via de Apple TV als "Bridge" gebruikt moeten kunnen worden via een internet verbinding. Dit wel geïnstalleerd,
+maar nog niet werkend gezien.
+
 # Raspberry Pi 5
 Zelf heb ik ook een RP5 aangeschaft, en met HAOS voorzien en in gebruik gesteld om te experimenteren met Home Assistant. Veel mogelijkheden om uit te zoeken.
