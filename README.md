@@ -19,11 +19,12 @@ Nu nog een script werkend zien te krijgen. Lastig omdat de bijgeleverde "documen
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. ESP32 microcontrollers mogelijk maakt, deze 
 gebruik ik regelmatig i.c.m. MicroPython/MySQL om verschillende sensoren aan te sturen, zoals voor temperatuur, luchtvochtigheid
 en luchtdruk, bewegingssensoren (PIR) etc. Deze module heet [ESPHome](https://www.esphome.io/) en kan een waardevolle toevoeging
-zijn in de toekomst.
+zijn in de toekomst. 
 
 # AppleTV
-Home Assistant zou via de Apple TV als "Bridge" gebruikt moeten kunnen worden via een internet verbinding. Dit wel geïnstalleerd,
-maar nog niet werkend gezien.
+Home Assistant is via de Apple TV als "Bridge" te gebruiken. Nu kun je makkelijk de Home/Thuis app van Apple gebruiken om alles
+thuis of buitenshuis via het internet te schakelen.
 
 # Raspberry Pi 5
-Zelf heb ik ook een RP5 aangeschaft, en met HAOS voorzien en in gebruik gesteld om te experimenteren met Home Assistant. Veel mogelijkheden om uit te zoeken.
+Zelf heb ik ook een RP5 aangeschaft, en met HAOS voorzien en in gebruik gesteld om te experimenteren met Home Assistant.
+Veel mogelijkheden om uit te zoeken.
