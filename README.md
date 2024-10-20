@@ -28,8 +28,11 @@ Deze module heet [ESPHome](https://www.esphome.io/) en kan een waardevolle toevo
 
 # AppleTV
 Home Assistant is via de Apple TV als "Bridge" te gebruiken. Nu kun je makkelijk de Home/Thuis app van Apple gebruiken om alles
-thuis of buitenshuis via het internet te schakelen.
+thuis of buitenshuis via het internet te schakelen. Dit werkte eerst prima (via de Raspberry Pi) maar nu lukt het buitenhuis schakelen niet zomaar, via de Synology in een Docker wel via de link [Synology DS718+ Home Assistant](http://webwings.synology.me:8123) 
 
 # Raspberry Pi 5
 Zelf heb ik ook een RP5 aangeschaft, en met HAOS voorzien en in gebruik gesteld om te experimenteren met Home Assistant.
 Veel mogelijkheden om uit te zoeken.
+
+# Mobiele Home Assistant Applicatie
+Via iOS of Android kun je gebruik maken van de Home Assistant App.
