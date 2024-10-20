@@ -15,8 +15,9 @@ HAOS maakt het mogelijk om Python programma's te starten, dit moet ook nog verde
 zijn werk gaat. Er is een begin van een voorbeeld op de website van Home Assistant zelf:
 [Python op Home Assistant](https://www.home-assistant.io/integrations/python_script/)
 
-Even zelf overgestapt op **"pyscript**, deze lijkt nu correct te zijn geïnstalleerd.
-Nu nog een script werkend zien te krijgen. Lastig omdat de bijgeleverde "documentatie" erg summier is.
+De website: [HACS PyScript](https://hacs-pyscript.readthedocs.io/en/latest/installation.html) geeft aan hoe dit
+geïnstalleerd dient te worden. (**even lastig**).
+Een extra hulp is [het YouTube filmpje](https://www.youtube.com/watch?v=Kr1rAJnVBrI)
 
 # ESPHome
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. **ESP32 microcontrollers** mogelijk maakt, deze 
