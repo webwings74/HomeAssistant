@@ -19,7 +19,8 @@ De website: [HACS PyScript](https://hacs-pyscript.readthedocs.io/en/latest/insta
 geïnstalleerd dient te worden. (**even lastig**).
 Een extra hulp is [het YouTube filmpje](https://www.youtube.com/watch?v=Kr1rAJnVBrI)
 
-Dit "hoofdstuk" is nog niet afgesloten, v.w.b. expirimenteren met Python/Yupiter op de Raspberry Pi.
+Dit "hoofdstuk" is nog niet afgesloten, v.w.b. expirimenteren met Python/Jupyter op de Raspberry Pi. Los van het feit
+dat Jupyter zeker iets interessants is, los van het Home Assistant project. (Markdown en Python Scripts als Notebook)
 
 ## ESPHome
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. **ESP32 microcontrollers** mogelijk maakt, deze 
