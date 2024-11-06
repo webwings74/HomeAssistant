@@ -28,6 +28,10 @@ gebruik ik regelmatig i.c.m. **MicroPython/MySQL** om verschillende sensoren aan
 zoals voor temperatuur, luchtvochtigheid en luchtdruk, bewegingssensoren (PIR) etc. Ook LED's via de GPIO's zijn in
 automatiseringen op te nemen. Deze module heet [ESPHome](https://www.esphome.io/).
 
+De beide test yaml configuraties zijn hier opgenomen onder:
+1. esphome-web-8b413c.yaml
+2. esphome-web-a2caf0.yaml
+
 ### PIR Module
 Ik heb een **ESP32 WROOM** DevKit module geflashed met ESPHome, en in Home Assistant kan ik deze met sensoren bijwerken.
 Het eerste projectje was een LED aan of uit met als trigger een PIR module (bewegingssensor), deze werkt erg mooi samen.
