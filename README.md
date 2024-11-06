@@ -32,3 +32,6 @@ thuis of buitenshuis via het internet te schakelen.
 # Raspberry Pi 5
 Zelf heb ik ook een RP5 aangeschaft, en met HAOS voorzien en in gebruik gesteld om te experimenteren met Home Assistant.
 Veel mogelijkheden om uit te zoeken.
+
+# Synology DS718+
+Het lijkt erop dat ik HA via een Docker kan gerbuiken. Dit is een meevaller, en zal dit ook verder thuis gaan gebruiken.
