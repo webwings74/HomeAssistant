@@ -31,7 +31,7 @@ automatiseringen op te nemen. Deze module heet [ESPHome](https://www.esphome.io/
 ### PIR Module
 Ik heb een **ESP32 WROOM** DevKit module geflashed met ESPHome, en in Home Assistant kan ik deze met sensoren bijwerken.
 Het eerste projectje was een LED aan of uit met als trigger een PIR module (bewegingssensor), deze werkt erg mooi samen.
-Als test de keukenverlichting aan, indien iemand tussen zonsondergang en zonsopgang langs de sensor loopt.
+Als test de keukenverlichting aan, indien iemand tussen zonsondergang en zonsopgang langs de sensor loopt. (Deze automatisering moet ik nog maken in Home Assistant)
 
 ### Zonnestroom LED's
 Een **ESP32 WROVER-E** module heeft twee LED's (rood en groen) via een "helper" script gaat de rode LED aan als er netstroom
@@ -50,4 +50,5 @@ Veel mogelijkheden om uit te zoeken. De 8123 poort voor HAOS is ook exposed naar
 toegang te kunnen geven.
 
 ## Mobiele Home Assistant Applicatie
-Via iOS of Android kun je gebruik maken van de Home Assistant App.
+Via iOS of Android kun je gebruik maken van de Home Assistant App. Ook een manier om automatisch tussen een interne en een externe
+verbinding te schakelen op de mobiele telefoon.

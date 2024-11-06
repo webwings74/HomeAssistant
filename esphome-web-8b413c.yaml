@@ -1,3 +1,5 @@
+# Eerste YAML installatie van een ESP32 met twee LED's eraan gekoppeld. 
+
 substitutions:
   name: esphome-web-8b413c
   friendly_name: ESP32 WROVER-E

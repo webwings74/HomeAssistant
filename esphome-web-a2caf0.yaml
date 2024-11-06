@@ -1,3 +1,5 @@
+# Eerste installatie van de ESP32 WROOM DevKit met een PIR en een DHT22 sensor.
+
 substitutions:
   name: esphome-web-a2caf0
   friendly_name: ESP32-WROOM
