@@ -3,6 +3,13 @@ Projecten met betrekking tot het gebruik van het **Home Assistant OS** (HAOS), o
 O.a. voor het uitlezen van gegevens van een warmtepomp en daarna als doel het besturen ervan, met
 als input allerlei omgevings sensoren en weersvoorspelling.
 
+## Helpers
+Via **helpers** kun je eigen stukken scripts maken en gegevens manipuleren die je wilt laten zien of gebruiken in 
+HomeAssistant. Zelf heb ik o.a. het volgende stukje "sjabloon" gebruikt om het verschil tussen het terug geleverde
+vermogen en het totale PV vermogen dat op het moment word opgeleverd:
+
+`{{ '%0.1f' | format((states('sensor.solaredge_huidig_vermogen') | float) - (states('sensor.inverse_p1_vermogen') | float)) }}`
+
 ## Jinja2
 In HAOS kunnen sjalonen (templates) worden gemaakt, m.b.v. een
 [scripttaal Jinja2](https://jinja.palletsprojects.com/en/latest/templates/),
