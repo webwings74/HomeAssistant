@@ -33,16 +33,20 @@ dat Jupyter zeker iets interessants is, los van het Home Assistant project. (Mar
 Er kan een module worden geinstalleerd, die het aansturen en uitlezen van o.a. **ESP32 microcontrollers** mogelijk maakt, deze 
 gebruik ik regelmatig i.c.m. **MicroPython/MySQL** om verschillende sensoren aan te sturen,
 zoals voor temperatuur, luchtvochtigheid en luchtdruk, bewegingssensoren (PIR) etc. Ook LED's via de GPIO's zijn in
-automatiseringen op te nemen. Deze module heet [ESPHome](https://www.esphome.io/).
+automatiseringen op te nemen. Deze module heet [ESPHome](https://www.esphome.io/). Op dit moment heb ik een drietal ESP32's werkend, (2x WROVER-E en 1x een WROOM DevKit) waarop meerdere LED's, een PIR module, een DHT22 en een BMP180 op zijn aangesloten. Hier wil ik nog wat extra projecten mee maken, zodat er een ESP32 inclusief sensors eventueel op accu en netjes in een kastje (3D printer) in is verwerkt.
 
-De beide test yaml configuraties zijn hier opgenomen onder:
-1. esphome-web-8b413c.yaml
-2. esphome-web-a2caf0.yaml
+De test yaml configuraties zijn hier opgenomen onder:
+1. esphome-web-8b413c.yaml (WROVER-E)
+2. esphome-web-a2caf0.yaml (WROOM)
+3. esphome-web-b45f2c.yaml (WROVER-E)
 
 ### PIR Module
 Ik heb een **ESP32 WROOM** DevKit module geflashed met ESPHome, en in Home Assistant kan ik deze met sensoren bijwerken.
 Het eerste projectje was een LED aan of uit met als trigger een PIR module (bewegingssensor), deze werkt erg mooi samen.
 Als test de keukenverlichting aan, indien iemand tussen zonsondergang en zonsopgang langs de sensor loopt. (Deze automatisering moet ik nog maken in Home Assistant)
+
+### BMP180
+De BMP180 is een sensor die je via de bmp085 moet configureren onder een I~2~C bus. (GPIO21 voor de SDA en GPIO22 voor de SCL)
 
 ### Zonnestroom LED's
 Een **ESP32 WROVER-E** module heeft twee LED's (rood en groen) via een "helper" script gaat de rode LED aan als er netstroom
@@ -50,8 +54,10 @@ gebruikt word, en een groene LED als er stroom komt vanaf de zonnepanelen. (Bijk
 is er niet genoeg stroom van de zonnepanelen t.o.v. het verbruik).
 
 ## AppleTV
-Home Assistant is via de Apple TV als "Bridge" te gebruiken. Nu kun je makkelijk de Home/Thuis app van Apple gebruiken om alles
-thuis of buitenshuis via het internet te schakelen. Bij gebruik van een Raspberry Pi is dit niet noodzakelijk. 
+Home Assistant is via de Apple TV als "Bridge" te gebruiken.
+Nu kun je makkelijk de Home/Thuis app van Apple gebruiken om alles
+thuis of buitenshuis via het internet te schakelen.
+Bij gebruik van een Raspberry Pi is dit niet noodzakelijk, en deze optie gebruik ik dan ook niet. 
 Via de Home Assistant app op het mobiele device kun je ook een interne en een externe toegang krijgen.
 Zie **Mobiele Home Assistant Applicatie**
 
@@ -61,5 +67,6 @@ Veel mogelijkheden om uit te zoeken. De 8123 poort voor HAOS is ook exposed naar
 toegang te kunnen geven.
 
 ## Mobiele Home Assistant Applicatie
-Via iOS of Android kun je gebruik maken van de Home Assistant App. Ook een manier om automatisch tussen een interne en een externe
-verbinding te schakelen op de mobiele telefoon.
+Via iOS of Android kun je gebruik maken van de Home Assistant App.
+Ook een manier om automatisch tussen een interne en een externe verbinding te schakelen op de mobiele telefoon.
+Dit had bij mij thuis enige voeten in aarde, daar ik naar een nieuw MESH WiFi systeem ben overgestapt.

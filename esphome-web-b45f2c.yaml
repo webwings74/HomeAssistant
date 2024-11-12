@@ -57,7 +57,9 @@ web_server:
 # address (Optional, int): Manually specify the I²C address of the sensor. Defaults to 0x77.
 # update_interval (Optional, Time): The interval to check the sensor. Defaults to 60s.
 
-# Voor de BMP180 moet je I2C configureren.
+# Voor de BMP180 moet je I2C configureren. Ik weet niet of
+# id: bus_a noodzakelijk is, hoewel een ESP32 wel twee I2C bussen aankan
+# Het werkt in ieder geval wel, in het sensor gedeelte heb ik geen id aangegeven (als dat al mogelijk was)
 i2c:
   sda: GPIO21
   scl: GPIO22
