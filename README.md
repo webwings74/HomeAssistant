@@ -73,4 +73,4 @@ Dit had bij mij thuis enige voeten in aarde, daar ik naar een nieuw MESH WiFi sy
 
 ## Harm's Project
 Via e-amil een document over in- en outputs van Harm's wamtepomp. Hoewel het nog niet echt wil lukken om directe (Micro)Python programma's
-te schrijven in **Home Assistant** voor de duidelijkheid het omschrijven in een Jupyter Notebook.
+te schrijven in **Home Assistant** voor de duidelijkheid het omschrijven in een Jupyter Notebook. Versie 0.1 is hier opgenomen als **harm-rewrite-jupyter.ipynb**
