@@ -70,3 +70,7 @@ toegang te kunnen geven.
 Via iOS of Android kun je gebruik maken van de Home Assistant App.
 Ook een manier om automatisch tussen een interne en een externe verbinding te schakelen op de mobiele telefoon.
 Dit had bij mij thuis enige voeten in aarde, daar ik naar een nieuw MESH WiFi systeem ben overgestapt.
+
+## Harm's Project
+Via e-amil een document over in- en outputs van Harm's wamtepomp. Hoewel het nog niet echt wil lukken om directe (Micro)Python programma's
+te schrijven in **Home Assistant** voor de duidelijkheid het omschrijven in een Jupyter Notebook.
