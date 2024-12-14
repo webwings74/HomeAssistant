@@ -1,6 +1,6 @@
 substitutions:
   name: esphome-web-9eb9bc
-  friendly_name: ESP32-AZDELIVERY-WROOM
+  friendly_name: ESP32-AZ1-WROOM
 
 esphome:
   name: ${name}
